@@ -1,0 +1,204 @@
+
+
+/* Responsiveness- who thought its a good idea to make foldable phones????? this is hell*/
+
+@media screen and (min-width: 768px){
+    
+    
+    .nav{
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+        background-color: transparent;
+
+    }
+
+    .menu li{
+        float: left;
+
+    }
+
+    .menu a:hover{
+        background-color: transparent;
+        color: var(--grey);
+        
+    }
+    
+    .hamburger{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                                            .""--.._
+                                           []      `'--.._
+                                           ||__           `'-,
+                                         `)||_ ```'--..       \
+                     _                    /|//}        ``--._  |
+                  .'` `'.                /////}              `\/
+                 /  .""".\              //{///    
+                /  /_  _`\\            // `||
+                | |(_)(_)||          _//   ||
+                | |  /\  )|        _///\   ||
+                | |L====J |       / |/ |   ||
+               /  /'-..-' /    .'`  \  |   ||
+              /   |  :: | |_.-`      |  \  ||
+             /|   `\-::.| |          \   | ||
+           /` `|   /    | |          |   / ||
+         |`    \   |    / /          \  |  ||
+        |       `\_|    |/      ,.__. \ |  ||
+        /                     /`    `\ ||  ||
+       |           .         /        \||  ||
+       |                     |         |/  ||
+       /         /           |         (   ||
+      /          .           /          )  ||
+     |            \          |             ||
+    /             |          /             ||
+   |\            /          |              ||
+   \ `-._       |           /              ||
+    \ ,//`\    /`           |              ||
+     ///\  \  |             \              ||
+    |||| ) |__/             |              ||
+    |||| `.(                |              ||
+    `\\` /`                 /              ||
+       /`                   /              ||
+      /                     |              ||
+     |                      \              ||
+    /                        |             ||
+  /`                          \            ||
+/`                            |            ||
+`-.___,-.      .-.        ___,'            ||
+         `---'`   `'----'`                 */
+         
+@media screen and (max-width: 768px) {
+    body{
+
+        overflow-x: hidden;
+    }
+    
+    .carousel-item {
+        width: 80% !important;
+    }
+    .carousel-control.prev {
+        left: 10% !important;
+    }
+    
+    .carousel-control.next {
+        right: 10% !important;
+        
+    }
+
+    .logo{
+        padding-top: 40%;
+        width: 80%;
+
+    }
+    .logoTxt{
+        padding-top: 50%;
+    }
+
+    .slide:first-child {
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+
+    }
+    .slide:nth-child(2){
+        height: 80vh;
+
+    }
+    .slide:last-child{
+        height: 80vh !important;
+
+    }
+    .menu a{
+        font-size: 5.5vw;
+        color: var(--black);
+
+    }
+    nav{
+        padding: 0% !important;
+        left: -100%;
+
+    }
+    .card{
+        position: relative;
+        top: -10%;
+        width: 85%;
+        height: 60%;
+    }
+    .top-image{
+        top: -27%;
+    }
+    ul{
+        padding: 15% 0 0 5% ;
+    }
+    
+    h1, h2, h3 {
+        font-size: 8vw;
+        padding-bottom: 5%;
+    }
+    
+    p {
+        font-size: 3.5vw; 
+    }
+    .slide {
+        width: 100%;
+        height: 150vh;
+        
+    }
+    #slide2{    
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .cardRed{
+        padding: 0% 10% 0% 10%;
+        width: 100%;
+
+    }
+    .badIdea  {
+        font-size: 3.3vw; 
+    
+    }
+
+      form > input,
+      form > textarea {
+     
+        width: 72vw;
+      }
+      form > input[type="submit"] {
+        max-width: 30vw;
+      }
+      form > article {
+        filter:invert(1);
+        width:300px;
+      }
+      #slide3{
+        display: none;
+      }
+      .product {
+        width: calc(50% - 20px); /* Two products per row on medium-sized screens */
+    }
+}

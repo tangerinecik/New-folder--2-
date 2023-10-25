@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="items.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="carousel.css">
+    <link rel="icon" href="img/saintshop1.png" type="image/png">
+
+</head>
+<body>
+
+
+    <!--  Real programmers don't comment their code. If it was hard to write, it should be hard to understand.  -->
+
+
+    <header class="header">
+       
+
+        <!-- Cheeseburger -->
+        <input class="side-menu" type="checkbox" id="side-menu" />
+        <label class="hamburger" for="side-menu">
+            <span class="hamburger-line"></span>
+        </label>
+
+        <!-- Menu -->
+        <nav class="nav">
+            <ul class="menu">
+                <li><label for="side-menu" class="closeThisSideNav" onclick="location.href = '#slide1';"><a>About us</a></label></li>
+                <li><label for="side-menu" class="closeThisSideNav" onclick="location.href = '#slide2.0';"><a>Unique items</a></label></li>
+                <li><label for="side-menu" class="closeThisSideNav" onclick="location.href = '#slide3';"><a>Outfit ideas</a></label></li>
+                <li><label for="side-menu" class="closeThisSideNav" onclick="location.href = '#slide4';"><a>Contact</a></label></li>
+
+            </ul>
+        </nav>
+         <!-- for some reason when i try to put the logo anywhere else the whole arrangement crashes, i need bootsstrap :((((( -->
+         <a href="#" class="logo"><img src="img/SAINTSHOP1.png" width="55%" alt=""></a>
+    </header>
+    
+    <!-- Main content -->
+
+    <article id="slides">
+        <article class="slide" id="slideHeader">
+            <article class="logoTxt" >
+                <h1>Outfit Ideas</h1>
+            </article>
+
+        </article>
+
+        <article class="slide" id="slide1">
+            <img src="img/devilhorns.png" class="top-image" width="100%" alt="Top Image" onclick="location.href = '#slide1';" style="cursor: pointer;">
+
+            <article class="card">
+                <h2 style="    padding-bottom: 3% !important;">Find the right clothes for you</h2>
+                <p>It's Spring, Summer, Autumn, or Winter, and don't know what outfit to wear? Or you are going out, meet with your friends, to an event, or dating and want to impress? You are in the right place! <br></p> <p> With our simple site, you can find an outfit suitable for your need in just a few clicks. There are dozens of outfits for men and women to choose from. You just have to play!</p>
+          </article>
+        </article>
+         <img src="img/maskr.png" class="bottom-image" alt="Bottom Image" onclick="location.href = '#slide1';" style="cursor: pointer;"> 
+
+<article class="slide" id="slide2.0" >
+    <h1>Items Examples</h1>
+    <article class="product-container">
+        <article class="product">
+            <img src="img/hanorace/hanoracmetallica.jpg" alt="Product 1">
+        </article>
+        <article class="product">
+            <img src="img/hanorace/155839801_886065168606417_8107719165312708393_n.jpg" alt="Product 1">
+        </article>        <article class="product">
+            <img src="img/hanorace/373249185_1321879895098515_116666231881271950_n.jpg" alt="Product 1">
+        </article>        <article class="product">
+            <img src="img/hanorace/hanoracamonamarth.jpg" alt="Product 1">
+        </article>        <article class="product">
+            <img src="img/tricouri/167203006_254722469626993_3971606970425510648_n.jpg" alt="Product 1">
+        </article>        <article class="product">
+            <img src="img/tricouri/soad (1).jpg" alt="Product 1">
+        </article>        <article class="product">
+            <img src="img/tricouri/scorpion1 (1).jpg" alt="Product 1">
+        </article>        <article class="product">
+            <img src="img/tricouri/michaelJackson (4).jpg" alt="Product 1">
+        </article>        <article class="product">
+            <img src="img/tricouri/metallifukinca (9).jpg" alt="Product 1">
+        </article>
+        <article class="product">
+            <img src="img/tricouri/iron maiden (5).jpg" alt="Product 20">
+        </article>
+    </article>
+</article>   
+ 
+ 
+         <article class="slide" id="slide3">
+            <img src="img/output-onlinegiftools.gif" alt="">      
+         </article>
+       
+
+
+
+
+
+
+         <footer class="slide site-footer" id="footer">
+            <!-- footer of the Site -->
+                
+                <form action="https://formsubmit.co/tangerinecik@gmail.com" method="POST">
+                    <article style="display: flex; align-items: center;     justify-content: center;                    ">
+                        <h2 id="">Contact us</h2>
+                    </article>
+                    <input type="text" name="name" placeholder="name" required>
+                    <input type="text" name="Email Adress" placeholder="Email Adress" required>
+                    <input type="text" name="Topic" placeholder="Topic" required>
+                    <textarea name="Mesajul" placeholder="Subiectul " required></textarea>
+                    <input type="submit" value="Send">
+                </form>
+                </article>
+                
+
+</footer>
+</body>
+</html>
