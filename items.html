@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="items.css">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="carousel.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/carousel.css">
     <link rel="icon" href="img/saintshop1.png" type="image/png">
+    <meta name="keywords" content="band, vintage, rock, outfit, clothing">
+    <title>NirvanaRockshop</title>
+
 
 </head>
 <body>
@@ -28,15 +31,15 @@
         <!-- Menu -->
         <nav class="nav">
             <ul class="menu">
-                <li><label for="side-menu" class="closeThisSideNav" onclick="location.href = '#slide1';"><a>About us</a></label></li>
+                <li><label for="side-menu" class="closeThisSideNav" onclick="location.href = 'index.html';"><a>Home</a></label></li>
                 <li><label for="side-menu" class="closeThisSideNav" onclick="location.href = '#slide2.0';"><a>Unique items</a></label></li>
                 <li><label for="side-menu" class="closeThisSideNav" onclick="location.href = '#slide3';"><a>Outfit ideas</a></label></li>
-                <li><label for="side-menu" class="closeThisSideNav" onclick="location.href = '#slide4';"><a>Contact</a></label></li>
+                <li><label for="side-menu" class="closeThisSideNav" onclick="location.href = '/contactPage.html';"><a>Contact</a></label></li>
 
             </ul>
         </nav>
          <!-- for some reason when i try to put the logo anywhere else the whole arrangement crashes, i need bootsstrap :((((( -->
-         <a href="#" class="logo"><img src="img/SAINTSHOP1.png" width="55%" alt=""></a>
+         <a href="index.html" class="logo"><img src="img/SAINTSHOP1.png" width="55%" alt="" title="logo"></a>
     </header>
     
     <!-- Main content -->
@@ -49,48 +52,49 @@
 
         </article>
 
-        <article class="slide" id="slide1">
-            <img src="img/devilhorns.png" class="top-image" width="100%" alt="Top Image" onclick="location.href = '#slide1';" style="cursor: pointer;">
+        <article class="slide slideforitems" id="slide1">
+            <img src="img/devilhorns.png" class="top-image" width="100%" alt="Top Image" onclick="location.href = '#slide1';" >
 
             <article class="card">
-                <h2 style="    padding-bottom: 3% !important;">Find the right clothes for you</h2>
-                <p>It's Spring, Summer, Autumn, or Winter, and don't know what outfit to wear? Or you are going out, meet with your friends, to an event, or dating and want to impress? You are in the right place! <br></p> <p> With our simple site, you can find an outfit suitable for your need in just a few clicks. There are dozens of outfits for men and women to choose from. You just have to play!</p>
+                <h2 id="h2FromitemsHtml">Find the right clothes for you</h2>
+                <p>It's Spring, Summer, Autumn, or Winter, and don't know what outfit to wear? Or you are going out, meet with your friends, to an event, or dating and want to impress? You are in the right place! </p> <p> With our simple site, you can find an outfit suitable for your need in just a few clicks. There are dozens of outfits for men and women to choose from. You just have to play!</p>
           </article>
         </article>
-         <img src="img/maskr.png" class="bottom-image" alt="Bottom Image" onclick="location.href = '#slide1';" style="cursor: pointer;"> 
+         <img src="img/maskr.png" class="bottom-image" alt="Bottom Image" title="top-image" onclick="location.href = '#slide1';" > 
 
-<article class="slide" id="slide2.0" >
+<article class="slide slide20" id="slide20" >
     <h1>Items Examples</h1>
     <article class="product-container">
         <article class="product">
-            <img src="img/hanorace/hanoracmetallica.jpg" alt="Product 1">
+            <a href="itemsPges/soad.html"><img src="img/tricouri/soad (1).jpg" alt="Product 1"  title="img"></a>
+        </article>        <article class="product">
+            <a href="itemsPges/scorpions.html"><img src="img/tricouri/scorpion1 (1).jpg" alt="Product 1"  title="img"></a>
+        </article>        <article class="product">
+            <a href="itemsPges/michaeljackson.html"><img src="img/tricouri/michaelJackson (4).jpg" alt="Product 1"  title="img"></a>
+        </article>        <article class="product">
+            <a href="itemsPges/metallicashirt.html"><img src="img/tricouri/metallifukinca (9).jpg" alt="Product 1"  title="img"></a>
         </article>
         <article class="product">
-            <img src="img/hanorace/155839801_886065168606417_8107719165312708393_n.jpg" alt="Product 1">
-        </article>        <article class="product">
-            <img src="img/hanorace/373249185_1321879895098515_116666231881271950_n.jpg" alt="Product 1">
-        </article>        <article class="product">
-            <img src="img/hanorace/hanoracamonamarth.jpg" alt="Product 1">
-        </article>        <article class="product">
-            <img src="img/tricouri/167203006_254722469626993_3971606970425510648_n.jpg" alt="Product 1">
-        </article>        <article class="product">
-            <img src="img/tricouri/soad (1).jpg" alt="Product 1">
-        </article>        <article class="product">
-            <img src="img/tricouri/scorpion1 (1).jpg" alt="Product 1">
-        </article>        <article class="product">
-            <img src="img/tricouri/michaelJackson (4).jpg" alt="Product 1">
-        </article>        <article class="product">
-            <img src="img/tricouri/metallifukinca (9).jpg" alt="Product 1">
+            <a href="itemsPges/ironmaiden.html"><img src="img/tricouri/iron maiden (5).jpg" alt="Product 2" title="img"></a>
         </article>
         <article class="product">
-            <img src="img/tricouri/iron maiden (5).jpg" alt="Product 20">
+           <a href="itemsPges/"><img src="img/hanorace/hanoracmetallica.jpg" alt="Product 1"  title="img" ></a>
         </article>
+        <article class="product">
+            <a href="itemsPges/"><img src="img/hanorace/155839801_886065168606417_8107719165312708393_n.jpg" alt="Product 1"  title="img"></a>
+        </article>        <article class="product">
+            <a href="itemsPges/"><img src="img/hanorace/373249185_1321879895098515_116666231881271950_n.jpg" alt="Product 1"  title="img"></a>
+        </article>        <article class="product">
+            <a href="itemsPges/"><img src="img/hanorace/hanoracamonamarth.jpg" alt="Product 1"  title="img"></a>
+        </article>        <article class="product">
+            <a href="itemsPges/"><img src="img/tricouri/167203006_254722469626993_3971606970425510648_n.jpg" alt="Product 1"  title="img"></a>
+        </article>    
     </article>
 </article>   
  
  
          <article class="slide" id="slide3">
-            <img src="img/output-onlinegiftools.gif" alt="">      
+            <a href=""><img src="img/output-onlinegiftools.gif" alt="gif">      
          </article>
        
 
@@ -103,18 +107,20 @@
             <!-- footer of the Site -->
                 
                 <form action="https://formsubmit.co/tangerinecik@gmail.com" method="POST">
-                    <article style="display: flex; align-items: center;     justify-content: center;                    ">
-                        <h2 id="">Contact us</h2>
-                    </article>
+                    <section class="footARTICLE">
+                        <legend >Contact us</legend>
+                    </section>
                     <input type="text" name="name" placeholder="name" required>
                     <input type="text" name="Email Adress" placeholder="Email Adress" required>
                     <input type="text" name="Topic" placeholder="Topic" required>
                     <textarea name="Mesajul" placeholder="Subiectul " required></textarea>
                     <input type="submit" value="Send">
                 </form>
+                <p>Copyright &#169; 2023-2023 NirvanaRockshop.com. All rights reserved.</p>
+
                 </article>
                 
 
-</footer>
+            </footer>
 </body>
 </html>

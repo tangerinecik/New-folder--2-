@@ -24,6 +24,7 @@
     position: fixed;
     background: var(--bgwhite);
     overflow: hidden;
+    z-index: 998;
     padding: 3% 20% 1% 0%;
 
 }

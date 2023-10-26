@@ -1,14 +1,24 @@
+
+
+
+<!-- i dont agree whith the grading system, " If one or more items from sufficient are missing, the group sufficient will be graded as
+insufficient." is a horible rule it means that if i cant do one of the items there is no reason for me to try and do the others. in my opinion each
+item should have the value of a point and each grop to have 20 items -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="nav.css">
-    <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="carousel.css">
+    <meta name="viewport"  content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"  type="text/css" href="css/style.css">
+    <link rel="stylesheet"  type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/carousel.css">
     <link rel="icon" href="img/saintshop1.png" type="image/png">
+    <meta name="author" content="Bogdan">
+    <meta name="description" content="Rediscover music history with vintage band T-shirts.">
+    <meta name="keywords" content="band, vintage, rock, outfit, clothing">
 
+<title>NirvanaRockshop</title>
 </head>
 <body>
 
@@ -31,43 +41,47 @@
                 <li><label for="side-menu" class="closeThisSideNav" onclick="location.href = '#slide1';"><a>About us</a></label></li>
                 <li><label for="side-menu" class="closeThisSideNav" onclick="location.href = '#slide2.0';"><a>Unique items</a></label></li>
                 <li><label for="side-menu" class="closeThisSideNav" onclick="location.href = '#slide3';"><a>Outfit ideas</a></label></li>
-                <li><label for="side-menu" class="closeThisSideNav" onclick="location.href = '#slide4';"><a>Contact</a></label></li>
+                <li><label for="side-menu" class="closeThisSideNav" onclick="location.href = 'contactPage.html';"><a>Contact</a></label></li>
 
             </ul>
         </nav>
-         <!-- for some reason when i try to put the logo anywhere else the whole arrangement crashes, i need bootsstrap :((((( -->
-         <a href="#" class="logo"><img src="img/SAINTSHOP1.png" width="55%" alt=""></a>
+         <a href="#" class="logo"><img src="img/SAINTSHOP1.png" width="55%" alt="logo" title="logo"></a>
     </header>
     
     <!-- Main content -->
 
     <article id="slides">
         <article class="slide" id="slideHeader">
-            <article class="logoTxt" >
+            <section class="logoTxt" >
                 <h1>Nirvana</h1>
                 <h3>Rockshop</h3>
-            </article>
+            </section>
 
         </article>
 
         <article class="slide" id="slide1">
-            <img src="img/devilhorns.png" class="top-image" width="100%" alt="Top Image" onclick="location.href = '#slide1';" style="cursor: pointer;">
+                    
+    <!-- This is impossible to make responsive, if you try to fix this image 
+        please increment the following counter:  total_hours_wasted_here = 4  -->
+
+            <img src="img/devilhorns.png" class="top-image" width="100%" alt="Top Image" title="TopImage" onclick="location.href = '#slide1';" >
 
             <article class="card">
                 <h2>About us</h2>
-                <p>Welcome to Nirvana Rock Shop, your best alternative music fashion website! Nirvana Rock Shop is more than just a site—it's a celebration of music culture.
-                <p>We're all about hunting down those vintage band tees and customizing backpacks with patches that scream personality. Why? Because we get it – you're passionate about the music you love. </p>        </p>
+                <p>Welcome to Nirvana Rock Shop, your best alternative music fashion website! Nirvana Rock Shop is more than just a site—it's a celebration of music culture.</p> 
+                <p>We're all about hunting down those <em>vintage</em> band tees and customizing backpacks with patches that scream personality. Why? Because we get it – you're passionate about the music you love.        </p>
             </article>
         </article>
-         <img src="img/maskr.png" class="bottom-image" alt="Bottom Image" onclick="location.href = '#slide1';" style="cursor: pointer;"> 
+         <img src="img/maskr.png" class="bottom-image" alt="Bottom Image" title="Bottom Imge" onclick="location.href = '#slide1';"> 
 
         <article class="slide" id="slide2.0" >
 
 
                 <h2>Unique items</h2>
 <article id="slide2"> 
+    
                 <article class="cardRed">
-                    <p>We're all about hunting down those vintage band tees and customizing backpacks with patches that scream personality. Why? Because we get it – you're passionate about the music you love. </p>        </p>
+                    <p>Vintage band t-shirts are <strong>timeless</strong>, representing music's enduring power and self-expression. Worn and weathered, each shirt tells a story of a bygone era or a memorable concert. Whether a devoted fan or an admirer of classic rock and punk aesthetics, these tees are always in vogue.</p>
                     <a href="items.html" class="button badIdea"><span>Check out the items</span></a></article>
                 <article>  
         
@@ -76,17 +90,20 @@
     
     <article class="carousel-inner">
         <input class="carousel-open" type="radio" id="carousel-1" name="carousel"  hidden="" checked="checked">
-        <article class="carousel-item">
-            <a href=""><img src="img/tricouri/metallifukinca (9).jpg"></a>
-        </article>
+        <figure class="carousel-item">
+            <a href="itemsPges/metallicashirt.html"><img src="img/tricouri/metallifukinca (9).jpg" title="bandT" alt="img"></a>
+            <figcaption>Front</figcaption>
+        </figure>
         <input class="carousel-open" type="radio" id="carousel-2" name="carousel"  hidden="">
         <article class="carousel-item">
-            <a href=""><img src="img/tricouri/metallifukinca (1).jpg"></a>
+            <a href="itemsPges/metallicashirt.html"><img src="img/tricouri/metallifukinca (1).jpg"  alt="img" title="bandT"></a>
         </article>
         <input class="carousel-open" type="radio" id="carousel-3" name="carousel"  hidden="">
-        <article class="carousel-item">
-            <a href=""><img src="img/tricouri/metallifukinca (6).jpg"></a>
-        </article>
+        <figure class="carousel-item">
+            <a href="itemsPges/metallicashirt.html"><img src="img/tricouri/metallifukinca (6).jpg" alt="img" title="bandT"></a>
+            <figcaption>back</figcaption>
+        </figure>
+
        
         <label for="carousel-3" class="carousel-control prev control-1">‹</label>
         <label for="carousel-2" class="carousel-control next control-1">›</label>
@@ -112,7 +129,7 @@
  
  
          <article class="slide" id="slide3">
-            <img src="img/output-onlinegiftools.gif" alt="">      
+            <img src="img/output-onlinegiftools.gif" alt="img" title="gif">      
          </article>
        
 
@@ -124,18 +141,20 @@
             <!-- footer of the Site -->
                 
                 <form action="https://formsubmit.co/tangerinecik@gmail.com" method="POST">
-                    <article style="display: flex; align-items: center;     justify-content: center;                    ">
-                        <h2 id="">Contact us</h2>
-                    </article>
-                    <input type="text" name="name" placeholder="name" required>
-                    <input type="text" name="Email Adress" placeholder="Email Adress" required>
+                    <section class="footARTICLE">
+                        <legend>Contact us</legend>
+                    </section>
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="text" value="email"  required>
                     <input type="text" name="Topic" placeholder="Topic" required>
                     <textarea name="Mesajul" placeholder="Subiectul " required></textarea>
                     <input type="submit" value="Send">
                 </form>
-                </article>
+            <aside>
+                <p>Copyright &#169; 2023-2023 NirvanaRockshop.com. All rights reserved.</p>
+            </aside>
                 
-
+        </article>
 </footer>
 </body>
 </html>

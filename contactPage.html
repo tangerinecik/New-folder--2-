@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="icon" href="img/saintshop1.png" type="image/png">
+    <meta name="keywords" content="band, vintage, rock, outfit, clothing">
+
+    <title>NirvanaRockshop</title>
+
+
+</head>
+<body>
+
+
+    <!--  Real programmers don't comment their code. If it was hard to write, it should be hard to understand.  -->
+
+
+    <header class="header">
+       
+
+        <!-- Cheeseburger -->
+        <input class="side-menu" type="checkbox" id="side-menu" />
+        <label class="hamburger" for="side-menu">
+            <span class="hamburger-line"></span>
+        </label>
+
+        <!-- Menu -->
+        <nav class="nav">
+            <ul class="menu">
+                <li><label for="side-menu" class="closeThisSideNav" onclick="location.href = 'index.html';"><a>Home</a></label></li>
+                <li><label for="side-menu" class="closeThisSideNav" onclick="location.href = 'items.html';"><a>Unique items</a></label></li>
+                <li><label for="side-menu" class="closeThisSideNav" onclick="location.href = 'itemInfo.html';"><a>Outfit Information</a></label></li>
+                <li><label for="side-menu" class="closeThisSideNav" onclick="location.href = 'footer';"><a>Contact</a></label></li>
+
+            </ul>
+        </nav>
+         <!-- for some reason when i try to put the logo anywhere else the whole arrangement crashes, i need bootsstrap :((((( -->
+         <a href="#" class="logo"><img src="img/SAINTSHOP1.png" width="55%" alt="img" title="logo"></a>
+    </header>
+    
+    <!-- Main content -->
+
+    <article id="slides">
+        <article class="slide" id="slideHeader">
+            <article class="logoTxt" >
+                <h1>Nirvana</h1>
+                <h3>Rockshop</h3>
+            </article>
+
+        </article>
+
+        <article class="slide" id="slide1">
+            <img src="img/devilhorns.png" class="top-image" width="100%" alt="Top Image" alt="img" onclick="location.href = '#slide1';" >
+
+            <section class="card">
+                <h2>Contact Information</h2>
+                <p>You can reach out to us through the following contact methods:</p>
+                <ul>
+                    <li>Email: <a href="mailto:contact@nirvanarockshop.com">contact@nirvanarockshop.com</a></li>
+                    <li>Phone: +1 (123) 456-7890</li>
+                    <li>Address: 123 Rock Street, Musicville, Netherlands</li>
+                </ul>
+            </section>
+        </article>
+         <img src="img/maskr.png" class="bottom-image" alt="Bottom Image"  alt="img" onclick="location.href = '#slide1';"> 
+
+         
+
+<footer class="slide site-footer" id="footer">
+            <!-- footer of the Site -->
+                
+                <form action="https://formsubmit.co/tangerinecik@gmail.com" method="POST">
+                    <section class="footARTICLE">
+                        <legend>Contact us</legend>
+                        </section>
+                    <input type="text" name="name" placeholder="name" required>
+                    <input type="text" name="Email Adress" placeholder="Email Adress" required>
+                    <input type="text" name="Topic" placeholder="Topic" required>
+                    <textarea name="Mesajul" placeholder="Subiectul " required></textarea>
+                    <input type="submit" value="Send">
+                </form>
+                <p>Copyright &#169; 2023-2023 NirvanaRockshop.com. All rights reserved.</p>
+
+                </article>
+                
+
+</footer>
+</body>
+</html>

@@ -24,6 +24,9 @@ html {
 
 a{
     text-decoration: none;
+    cursor: pointer;
+
+    
 }
 h1, h2, h3 {
     font-size: 3vw; 
@@ -55,12 +58,11 @@ body {
 }
 .logoTxt{
     text-align: center;
-    font-size: 2vw; 
-    color: var(--white);
+    font-size: 3vw; 
 
 }
 .slide:first-child {
-    background-image: url('img/imgpentruheader.png');
+    background-image: url('../img/imgpentruheader.png');  
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat;
@@ -112,6 +114,7 @@ body {
 .top-image, .bottom-image {
     height: auto;
     position: relative;
+    cursor: pointer;
 }
 .top-image{
     top:-45%;
@@ -209,6 +212,9 @@ body {
     height: 40px;
     color: #fff;
     border-radius: 5px;
+    border-color: transparent;
+    border-style: none;
+    border-width: 0;
     cursor: pointer;
     box-shadow: 7px 7px 20px 0px rgba(0, 0, 0, 0.2),
                 4px 4px 5px 0px rgba(0, 0, 0, 0.2);
@@ -220,6 +226,10 @@ body {
     padding: 0;
     border: none;
     font-size: 1.3vw; 
+    letter-spacing: 2px;
+    text-indent: 20px;
+    word-spacing: 2px;
+    text-transform:uppercase
 
 }
 
@@ -266,6 +276,25 @@ body {
 .badIdea span:hover::after {
     width: 100%;
 }
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    width: calc(20% - 20px);
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: 90%;
+}
+
 form {
     padding-left:25px;
     padding-right:25px;
@@ -319,21 +348,11 @@ form {
   form > input[type="submit"]:hover {
     background-color: rgb(255, 255, 255);
   }
-  .product-container {
+  .footARTICLE{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+    align-items: center; 
+    justify-content: center;
+    font-size: 2.3vw; 
 
-.product {
-    width: calc(20% - 20px);
-    margin: 10px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: center;
-}
-
-.product img {
-    max-width: 100%;
-    height: auto;
-}
+  }
+  
