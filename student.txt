@@ -1,5 +1,5 @@
 Student name: Bogdan Fares Abu Ghanim
 Student number: 709809
 Student class: IT1 A
-GitHub Repository: your github repository URL
-GitHub Pages URL: your github pages URL
+GitHub Repository: https://github.com/tangerinecik/New-folder--2-.git
+GitHub Pages URL: https://tangerinecik.github.io/New-folder--2-/
