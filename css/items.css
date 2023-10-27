@@ -1,5 +1,4 @@
 
-/* ngl css is so powerful i dont even need js for some stuff */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 :root{
@@ -38,7 +37,7 @@ p {
 }
 
 a:active {
-    color: #CC3333; /* Selected link color */
+    color: #CC3333; 
 }
 
 ul{
